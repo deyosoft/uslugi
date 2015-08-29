@@ -26,7 +26,7 @@ Tags: responsive design, rating
 	background: #aaaaff;
 }
 
-a.button {
+input.button, option, select, .label {
 	display: inline-block;
 	font-size:20px;
 	margin: 5px;
@@ -34,4 +34,8 @@ a.button {
 	background: white;
 	text-decoration:none;
 	border-radius: 5px;
+}
+
+input.button:hover {
+	cursor: pointer;
 }
