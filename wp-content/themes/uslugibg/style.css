@@ -17,6 +17,16 @@ Tags: responsive design, rating
 
 */
 
+.result {
+	border: 2px solid black;
+	padding: 10px;
+	margin: 10px;
+	border-radius:10px;
+	font-size:20px;
+	display: inline-block;
+	background: white;
+}
+
 #menu, #menu a {
 	background: blue;
 	color: white;
@@ -24,6 +34,10 @@ Tags: responsive design, rating
 
 #content {
 	background: #aaaaff;
+}
+
+#searchresults {
+	background: #ddddff;
 }
 
 input.button, option, select, .label {

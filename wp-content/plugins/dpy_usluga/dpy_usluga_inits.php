@@ -101,6 +101,12 @@ class Uslugi_Plugin_Initializator {
 			),
 			'rewrite' => array( 'slug' => 'ServiceType' ),
 			'hierarchical' => true,
+			'capabilities' => array(
+					'manage_terms' => true
+					,'edit_terms' => true
+					,'delete_terms' => true
+					,'assign_terms' => true
+			)
 		));
 		
 		// Service -> Location
@@ -110,6 +116,12 @@ class Uslugi_Plugin_Initializator {
 			'label' => __( 'Локация на услугата', UslugiConstants::Plugin_Text_Domain ),
 			'rewrite' => array( 'slug' => 'Location' ),
 			'hierarchical' => true,
+			'capabilities' => array(
+					'manage_terms' => true
+					,'edit_terms' => true
+					,'delete_terms' => true
+					,'assign_terms' => true
+			)
 		));
 	}
 }
