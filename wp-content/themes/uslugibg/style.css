@@ -16,3 +16,22 @@ Author URI: http://deyan-yosifov.com
 Tags: responsive design, rating
 
 */
+
+#menu, #menu a {
+	background: blue;
+	color: white;
+}
+
+#content {
+	background: #aaaaff;
+}
+
+a.button {
+	display: inline-block;
+	font-size:20px;
+	margin: 5px;
+	padding: 5px;
+	background: white;
+	text-decoration:none;
+	border-radius: 5px;
+}
